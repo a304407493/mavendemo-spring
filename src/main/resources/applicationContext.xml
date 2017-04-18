@@ -19,7 +19,16 @@
 	<import resource="performance.xml"/>
 <!-- 3.配置 Bean -->
 	<import resource="beans.xml"/>
-<!-- 4.配置 数据库druid -->
+<!-- 4.配置 数据库dataSource类型为druid -->
 	<import resource="druid.xml"/>
-
+<!-- 5.配置 mybatis -->
+	<import resource="mybatis.xml"/>
+<!-- 6.配置 springSchedule -->
+	<!-- <import resource="springSchedule.xml"/> -->
+<!-- 7.配置 spring事务 -->
+	<import resource="tx.xml"/>
+<!-- 8.配置 quartz-->
+	<!-- <import resource="quartz.xml"/> -->
+<!-- 9.配置 quartz集群-->
+	<import resource="quartzCluster.xml"/>
 </beans>

@@ -22,7 +22,7 @@
 		<!-- jetty版本 -->
 		<jetty.version>9.2.8.v20150217</jetty.version>
 		<!-- spring版本-->
-		<spring.version>3.1.1.RELEASE</spring.version>
+		<spring.version>3.2.0.RC1</spring.version>
 		<!-- jstl版本-->
 		<jstl.version>1.2</jstl.version>
 		<!-- commons.collections版本-->
@@ -63,13 +63,6 @@
     	<dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aop</artifactId>
-            <version>${spring.version}</version>
-            <type>jar</type>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-asm</artifactId>
             <version>${spring.version}</version>
             <type>jar</type>
             <scope>compile</scope>

@@ -26,7 +26,7 @@
 	</bean>
 <!-- 2.配置属性文件方式二 -->
 	<!-- 使用方式：@Value("#{configProperties['username']}")  -->
-	<!--
+	<!-- 
 	<bean id="configProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
         <property name="locations">
             <list>
@@ -37,9 +37,10 @@
             </list>
         </property>
     </bean>
-     -->
+    -->
 <!-- 3.配置属性文件方式三 -->
 	<!-- 使用方式：@Value("#{apps['username']}")  -->
-	<!-- <util:properties id="apps" location="classpath:druid.properties" /> -->
-
+	<!-- 
+	<util:properties  id="app" location="classpath:app.properties" />
+ 	-->
 </beans>
